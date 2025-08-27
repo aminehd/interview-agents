@@ -1,7 +1,7 @@
 from google.adk.agents import Agent
 
-from adk_short_bot.prompt import ROOT_AGENT_INSTRUCTION
-from adk_short_bot.tools import count_characters
+from .prompt import ROOT_AGENT_INSTRUCTION
+from .tools.character_counter import count_characters
 
 root_agent = Agent(
     name="adk_short_bot",
